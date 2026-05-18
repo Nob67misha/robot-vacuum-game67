@@ -3,16 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background: #1a1a1a;
+  background: radial-gradient(circle at 50% 30%, #2c3e50, #1a1a1a);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   overflow: hidden;
 }
+
 canvas {
   display: block;
-  background: #2b2b2b;
-  border: 2px solid #444;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.1);
 }
